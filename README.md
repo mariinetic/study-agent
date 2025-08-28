@@ -8,41 +8,6 @@ A ideia é permitir que o usuário:
 1. Informe a **dificuldade** de cada tópico.
 2. Receba um **cronograma de estudos diário** com base em dificuldade e progresso.
 3. Atualize seu **progresso** ao longo dos dias.
-4. Receba **lembretes automáticos** no console.
-
----
-
-## 📂 Estrutura do Projeto
-
-```
-study_agent/
-│
-├── app.py                 # Script principal
-├── data/
-│   └── topics.json         # Base de tópicos de Geografia
-├── modules/
-│   ├── scheduler.py        # Gera o cronograma com base em prioridade
-│   ├── human_input.py      # Recebe dificuldade do usuário
-│   ├── reminders.py        # Exibe lembretes no console
-│   └── progress.py         # Atualiza progresso de cada tópico
-└── README.md               # Documentação do projeto
-```
-
----
-
-## 🚀 Como Executar
-
-1. Entre na pasta do projeto:
-
-```bash
-cd study_agent
-```
-
-2. Execute o agente de estudos:
-
-```bash
-python app.py
-```
 
 ---
 
@@ -64,28 +29,14 @@ Questão Ambiental - Impactos ambientais globais: 4
 Questão Ambiental - Biomas brasileiros: 3
 ...
 
-⏰ Lembrete diário de estudo:
-1.2h - Questão Ambiental: Impactos ambientais globais
-0.8h - Geopolítica: Globalização
-1.0h - Espaço Agrário: Conflitos por terra
-
 📌 Informe o progresso de cada tópico (0 a 100%):
-Questão Ambiental - Impactos ambientais globais: 20
+Questão Ambiental - Impactos ambientais globais: 20%
 ...
 
 📅 Cronograma atualizado após progresso:
 0.9h - Questão Ambiental: Biomas brasileiros
 1.1h - Geopolítica: Blocos econômicos
 ```
-
----
-
-## 🔮 Melhorias Futuras
- 
-- Histórico de estudo salvo por dia.  
-- Geração de cronograma **completo até a data da prova**.
-- Interface Gráfica para melhor esperiencia do usuário
-
 ---
 
 ## 👩‍💻 Autor
